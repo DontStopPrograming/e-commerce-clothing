@@ -1,9 +1,12 @@
 .footer {
+
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 50px;
+    background: #e6ffe8;
 }
 
 .footer-logo {

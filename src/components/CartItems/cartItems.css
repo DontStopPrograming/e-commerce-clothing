@@ -45,7 +45,11 @@
 
 .cartItems-down {
     display: flex;
-    margin: 100px 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem;
+
 }
 
 .cartItems-total {
