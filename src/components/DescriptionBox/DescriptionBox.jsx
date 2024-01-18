@@ -5,7 +5,7 @@ export const DescriptionBox = () => {
         <div className='descriptionBox'>
             <div className='descriptionBox-navigator'>
                 <div className='descriptionBox-nav-box'>
-                    <div className='descriptionBox-nav-box fade'> Reviews (122) </div>
+                    <div className='descriptionBox-nav-box fade'> Service </div>
                 </div>
 
                 <div className='descriptionBox-description'>

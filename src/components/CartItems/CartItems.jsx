@@ -29,7 +29,7 @@ export const CartItems = () => {
                         <div key={e.id}>
                             <div className='cartItems-format cartItems-format-main'>
                                 <img src={e.image} alt="" className='cartIcon-product-icon' />
-                                <p> {e.name} </p>
+                                <p> ${e.name} </p>
                                 <p> ${e.new_price} </p>
                                 <button className='cartItems-quantity'> {cartItems[e.id]} </button>
                                 <p> ${e.new_price * cartItems[e.id]}  </p>
@@ -55,7 +55,7 @@ export const CartItems = () => {
                         <hr />
 
                         <div className='cartItems-total-item'>
-                            <p> Shipping Fee</p>
+                            <p> Shipping Free</p>
                             <p> Free </p>
                         </div>
                         <hr />

@@ -9,8 +9,6 @@ import { LoginSignUp } from './components/Pages/LoginSignUp'
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
-import { Hero } from '../src/components/Hero/Hero'
-
 import { Footer } from './components/Footer/Footer'
 
 import men_banner from './components/assets/banner_mens.png'

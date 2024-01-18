@@ -1,12 +1,11 @@
 .footer {
-
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    background: #e6ffe8;
+
+    background: #232323;
 }
 
 .footer-logo {
@@ -15,17 +14,22 @@
     gap: 20px;
 }
 
+.footer-logo img {
+    width: 70px;
+    height: 70px;
+}
+
 .footer-logo p {
-    color: #383838;
+    color: rgba(255, 255, 255, 0.87);
     font-size: 46px;
-    font-weigth: 700;
+    font-weight: 700;
 }
 
 .footer-links {
     display: flex;
     list-style: none;
     gap: 50px;
-    color: #252525;
+    color: rgba(255, 255, 255, 0.87);
     font-size: 20px;
 }
 
@@ -35,15 +39,23 @@
 
 .footer-social-icon {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -60%;
     gap: 20px;
 }
 
-.footer-icon-container {
+.footer-icons-container {
     padding: 10px;
     padding-bottom: 6px;
-    background: #fbfbfb;
-    border: 1px solid #ebebeb;
+    padding-left: 0;
+
 }
+
+.footer-icons-container img {
+    width: 30px;
+}
+
 
 .footer-copyright {
     display: flex;
@@ -51,15 +63,9 @@
     align-items: center;
     gap: 30px;
     width: 100%;
+    margin-top: 50px;
     margin-bottom: 30px;
-    color: #1a1a1a;
+    color: rgba(255, 255, 255, 0.87);
     font-size: 20px;
-}
 
-.footer-copyright hr {
-    width: 80%;
-    border: none;
-    border-radius: 10px;
-    height: 3px;
-    background: #c7c7c7;
 }

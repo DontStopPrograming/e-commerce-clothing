@@ -10,6 +10,13 @@
     color: #171717;
     font-size: 50px;
     font-weight: 600;
+
+
+    text-decoration: none;
+    color: transparent;
+    background: linear-gradient(rgb(156, 149, 248), #232323);
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .popular hr {

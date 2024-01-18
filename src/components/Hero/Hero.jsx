@@ -18,8 +18,8 @@ export const Hero = () => {
 
                     <div className='hero-left'>
                         <h2> NEW ARRIVALS ONLY</h2>
-                        <p> collections </p>
-                        <p> for everyone </p>
+                        <h3> Collections <br />
+                            for everyone </h3>
                     </div>
 
 

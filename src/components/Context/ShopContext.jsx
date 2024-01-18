@@ -39,8 +39,8 @@ export const ShopContextProvider = (props) => {
                     product.id === Number(item))
                 totalAmount += itemInfo.new_price * cartItems[item]
             }
-            return totalAmount
         }
+        return totalAmount
     }
 
     const getTotalCartItems = () => {

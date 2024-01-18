@@ -5,7 +5,7 @@
     margin: auto;
     padding: 0px 140px;
     margin-bottom: 150px;
-    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+    background: linear-gradient(180deg, #e3ffe1 0%, #e1ffea22 60%);
 }
 
 .offers-left {
@@ -19,19 +19,28 @@
     color: #171717;
     font-size: 80px;
     font-weight: 600;
+
+
+    text-decoration: none;
+    color: transparent;
+    background: linear-gradient(rgb(156, 149, 248), #232323);
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 .offers-left p {
     color: #171717;
     font-size: 22px;
     font-weight: 600;
+
+
 }
 
 .offers-left button {
     width: 282px;
     height: 70px;
     border-radius: 35px;
-    background: #ff4141;
+    background: #232323;
     border: none;
     color: white;
     font-size: 22px;

@@ -1,17 +1,17 @@
 import './footer.css'
 
-import footer_logo from '../assets/logo_big.png'
+import logo from '../assets/logo.png'
 import instagram_icon from '../assets/instagram_icon.png'
-import pintester_icon from '../assets/pintester_icon.png'
 import whatsapp_icon from '../assets/whatsapp_icon.png'
 
 export const Footer = () => {
     return (
         <div className='footer'>
             <div className='footer-logo'>
-                <img src={footer_logo} alt="" />
-                <p> SHOPPER</p>
+                <img src={logo} alt="" />
+                <p> TREND</p>
             </div>
+
             <ul className='footer-links'>
                 <li>Company</li>
                 <li>Products</li>
@@ -26,15 +26,10 @@ export const Footer = () => {
                 </div>
 
                 <div className='footer-icons-container'>
-                    <img src={pintester_icon} alt="" />
-                </div>
-
-                <div className='footer-icons-container'>
                     <img src={whatsapp_icon} alt="" />
                 </div>
 
                 <div className='footer-copyright'>
-                    <hr />
                     <p> Copyright {new Date().getFullYear()} - All Rigth Reserved</p>
                 </div>
 
