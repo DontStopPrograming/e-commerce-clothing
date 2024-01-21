@@ -7,6 +7,7 @@ import { NewCollections } from '../NewCollections/NewCollections';
 import { NewsLetters } from '../NewsLetters/NewsLetters';
 
 export const Shop = () => {
+
     return (
         <div className='shopMain'>
             <Hero />
