@@ -64,3 +64,29 @@
 .effect {
     box-shadow: 20px 20px 20px 25px rgb(50, 252, 0);
 }
+
+@media (max-width: 768px) {
+
+    .nav-menu li {
+        font-size: 1.25rem;
+    }
+
+
+    .nav-login-cart {
+        font-size: 1.25rem;
+    }
+
+    .nav-login-cart img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .nav-logo img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .nav-logo p {
+        font-size: 25px;
+    }
+}

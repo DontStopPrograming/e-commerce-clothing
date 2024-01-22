@@ -95,7 +95,7 @@ h2 {
     .hero {
         flex-direction: column;
         text-align: center;
-
+        height: 80vh;
     }
 
     .hero-left h2,
@@ -119,9 +119,9 @@ h2 {
 
     .hero-right img {
         width: 100%;
-        height: auto;
+        height: 500px;
         margin-left: 50%;
-        margin-top: -70%;
+        margin-top: -80%;
 
 
     }
