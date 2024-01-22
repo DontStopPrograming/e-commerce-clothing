@@ -90,3 +90,67 @@ h2 {
     -ms-border-radius: 75px;
     -o-border-radius: 75px;
 }
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .hero-left h2,
+    p {
+        font-size: 1.25rem;
+    }
+
+
+    .hero-left h3 {
+        font-size: 2rem;
+    }
+
+    .hero-right {
+        display: flex;
+        flex-direction: center;
+        justify-content: center;
+        gap: 0;
+        padding: 0;
+
+    }
+
+    .hero-right img {
+        width: 100%;
+        height: auto;
+        margin-left: 50%;
+        margin-top: -70%;
+
+
+    }
+
+    .left {
+        margin: 0;
+        margin-top: 20px;
+        margin-left: -40%;
+    }
+
+    .hero-latest-btn {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        width: 150px;
+        height: 150px;
+
+        margin-top: 0;
+
+    }
+
+    .hero-latest-btn p {
+        text-align: center;
+
+    }
+
+
+
+}

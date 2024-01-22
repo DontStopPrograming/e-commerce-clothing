@@ -1,0 +1,16 @@
+.shopMain {
+
+
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+
+    .shopMain {
+        text-align: center;
+        overflow: hidden;
+
+    }
+
+
+}

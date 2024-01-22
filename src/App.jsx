@@ -42,7 +42,7 @@ function App() {
         <Footer />
       </Router>
 
-      {/* <Hero /> */}
+
     </>
 
 
