@@ -83,14 +83,17 @@
     }
 
     .nav-menu li {
-        font-size: 0.90rem;
-        gap: 10px;
+        font-size: 1rem;
         margin-left: 20px;
     }
 
 
     .nav-login-cart {
         font-size: 0.90rem;
+    }
+
+    .nav-logo {
+        gap: 5px;
     }
 
     .nav-login-cart img {
@@ -105,7 +108,22 @@
     }
 
     .nav-logo p {
-        font-size: 0.90rem;
+        font-size: 0.70rem;
 
     }
+
+    .nav-cart-count {
+        width: 20px;
+        height: 20px;
+
+
+    }
+
+
+    .nav-login-cart {
+        gap: 10px;
+    }
+
+
+
 }
