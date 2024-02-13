@@ -1,26 +1,26 @@
-import { useEffect } from 'react'
-import { Splide, SplideSlide } from '@splidejs/react-splide';
-import '@splidejs/splide/dist/css/splide.min.css';
+// import { useEffect } from 'react'
+// import { Splide, SplideSlide } from '@splidejs/react-splide';
+// import '@splidejs/splide/dist/css/splide.min.css';
 
 import './item.css'
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 
 export const Item = (props) => {
-    useEffect(() => {
-        if (window.innerWidth <= 768) {
-            const splide = new Splide('.splide', {
-                type: 'loop',
-                drag: 'free',
-                focus: 'center',
-                perPage: 3,
-                autoScroll: {
-                    speed: -1,
-                },
-            });
-            splide.mount();
-        }
-    }, []);
+    // useEffect(() => {
+    //     if (window.innerWidth <= 768) {
+    //         const splide = new Splide('.splide', {
+    //             type: 'loop',
+    //             drag: 'free',
+    //             focus: 'center',
+    //             perPage: 3,
+    //             autoScroll: {
+    //                 speed: -1,
+    //             },
+    //         });
+    //         splide.mount();
+    //     }
+    // }, []);
 
     return (
 
