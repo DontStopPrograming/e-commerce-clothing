@@ -61,8 +61,9 @@
 
     .offers {
         width: 80%;
-        padding: 5% 50px;
-
+        height: 80vh;
+        padding: 0 50px;
+        margin: 0;
     }
 
     .offers-right {
@@ -74,7 +75,7 @@
     }
 
     .offers-left button {
-        margin-left: 15%;
+        margin-left: 20px;
     }
 
     .offers-left h1 {

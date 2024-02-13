@@ -42,7 +42,9 @@
 
     .item {
         width: 200px;
-        margin-left: 30%;
+        margin-left: 35%;
+        text-align: center;
+        padding: 20px 0;
     }
 
     .item img {
