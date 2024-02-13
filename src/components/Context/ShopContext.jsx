@@ -19,6 +19,14 @@ export const ShopContext = createContext(null)
 //     return cart
 // }
 
+const getDefaultCart = () => {
+    let cart = {}
+    for (let index = 0; index < all_product.length + 1; index++) {
+        cart[index] = 0
+    }
+    return cart
+}
+
 export const ShopContextProvider = (props) => {
 
     const [cartItems, setCartItems] = useState(getDefaultCart())
@@ -66,18 +74,9 @@ export const ShopContextProvider = (props) => {
 
 }
 
-
-const getDefaultCart = () => {
-    let cart = {}
-    for (let index = 0; index < all_product.length + 1; index++) {
-        cart[index] = 0
-    }
-    return cart
-}
-
 ShopContextProvider.propTypes = {
-    children: PropTypes.node.isRequired,
-    id: PropTypes.number.isRequired
+    children: PropTypes.node.isRequired
+
 }
 
 

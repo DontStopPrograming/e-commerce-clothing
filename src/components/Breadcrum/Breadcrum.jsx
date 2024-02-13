@@ -5,23 +5,29 @@ import arrow_icon from '../assets/breadcrum_arrow.png'
 
 export const Breadcrum = (props) => {
 
-  const product = props
+  const { product } = props
+
+  // if (!props.product) {
+  //   return null
+  // }
 
   return (
 
     <div className='breadcrum'>
       <img src={arrow_icon} alt='' />
       <img src={arrow_icon} alt='' />
-      {product.category}
+      {props.category}
 
       <img src={arrow_icon} alt="" />
-      {product.name}
+      {props.name}
 
     </div>
   )
 }
 
 Breadcrum.propTypes = {
-  category: PropTypes.string.required,
-  name: PropTypes.string.required
+  product: PropTypes.shape({
+    category: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired
+  }).isRequired
 }

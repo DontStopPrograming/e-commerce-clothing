@@ -1,4 +1,4 @@
-import './relatedProdructs.css'
+import './relatedProducts.css'
 
 import data_product from '../assets/data'
 import { Item } from '../Item/Item'

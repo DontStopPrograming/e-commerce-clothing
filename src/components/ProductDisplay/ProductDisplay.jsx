@@ -12,6 +12,17 @@ export const ProductDisplay = (props) => {
     const { product } = props
     const { addToCart } = useContext(ShopContext)
 
+    if (!product || !product.image) {
+        console.log('product undefined')
+        return (
+            <div className='productDisplay'>
+                <p> Product not avaliable</p>
+            </div>
+
+        )
+    }
+
+
     return (
         <div className='productDisplay'>
             <div className='productDisplay-left'>
@@ -65,8 +76,8 @@ export const ProductDisplay = (props) => {
                 <p className='productDisplay-right-category'> <span> Category: </span> Women, T-Shirt, Crop Top </p>
                 <p className='productDisplay-right-category'> <span> Tags: </span> Modern, Latest </p>
             </div>
-
         </div>
+
     )
 }
 
@@ -79,3 +90,5 @@ ProductDisplay.propTypes = {
         new_price: PropTypes.number.isRequired
     }).isRequired
 }
+
+
