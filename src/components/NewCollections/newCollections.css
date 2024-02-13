@@ -36,3 +36,11 @@
     margin-top: 50px;
     gap: 30px;
 }
+
+@media (max-width: 768px) {
+
+    .new-collections {
+        margin-top: 20px;
+    }
+
+}
