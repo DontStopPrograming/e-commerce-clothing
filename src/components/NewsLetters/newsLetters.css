@@ -8,7 +8,7 @@
     margin: auto;
     padding: 0px 140px;
     margin-bottom: 150px;
-    background: linear-gradient(180deg, #e3ffe1 0%, #e1ffea22 60%);
+    background: linear-gradient(180deg, #b5d4ff 0%, #e1ffea22 60%);
     gap: 30px;
 }
 
@@ -71,7 +71,7 @@
         margin: auto;
         padding: 10% 140px;
         margin-bottom: 150px;
-        background: linear-gradient(180deg, #e3ffe1 0%, #e1ffea22 60%);
+
         gap: 30px;
     }
 

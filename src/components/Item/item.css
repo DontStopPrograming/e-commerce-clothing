@@ -9,6 +9,7 @@
 .item-prices {
     display: flex;
     gap: 20px;
+
 }
 
 .item-price-new {
@@ -41,25 +42,30 @@
 @media (max-width: 768px) {
 
     .item {
-        width: 200px;
-        margin-left: 30%;
+
+        width: 80%;
         text-align: center;
-        padding: 20px 0;
-    }
+        padding: 0;
 
-    .item p {
-        width: 100%;
-        margin-left: 30%;
     }
-
-    .item .item-prices {
-        margin-left: 50%;
-    }
-
 
     .item img {
         height: 400px;
+
+
     }
+
+    .item p {
+        width: 80%;
+        margin-left: 30%;
+    }
+
+    /* 
+    .item .item-prices {
+        margin-left: 50%;
+    } */
+
+
 
 
 

@@ -33,17 +33,26 @@
 .popular-item {
     margin-top: 50px;
     display: flex;
+    flex-direction: row;
     gap: 30px;
+
 }
 
 @media (max-width: 768px) {
 
     .popular-item {
         margin-top: 50px;
-
         display: flex;
         gap: 30px;
+
+        position: relative;
+        overflow: hidden;
+
     }
+
+    .popular-item img {}
+
+
 
     .popular {
         display: flex;
