@@ -97,7 +97,7 @@ h2 {
         flex-direction: column;
         text-align: center;
         height: 80vh;
-        background: #b5d4ff;
+        background: #111111;
     }
 
     .hero-left {
@@ -112,25 +112,23 @@ h2 {
         margin-top: 40%;
     }
 
-    .hero-left h2 {
-        margin-left: 20%;
-    }
+    .hero-left h2 {}
 
 
     .hero-left h3 {
         font-size: 2rem;
-        margin-left: 20%;
+
 
     }
 
-    .hero-right {
+    /* .hero-right {
         display: none;
         flex-direction: none;
         justify-content: none;
         gap: 0;
         padding: 0;
 
-    }
+    } */
 
     .hero-right {
         display: flex;
@@ -142,7 +140,7 @@ h2 {
     }
 
     .hero-right img {
-        width: 100%;
+        width: 70%;
         height: auto;
         margin-left: 50%;
         margin-top: -100%;
@@ -152,7 +150,10 @@ h2 {
 
     .left {
         margin: 0;
-        padding: 0;
+        padding: 20px;
+        background: linear-gradient(180deg, #006aff, #fbfffc 60%);
+        border-radius: 20%;
+
     }
 
     .hero-latest-btn {
@@ -163,8 +164,8 @@ h2 {
         align-items: center;
         gap: 10px;
         border-radius: 50%;
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
         margin-top: 20%;
         margin-left: 20%;
     }

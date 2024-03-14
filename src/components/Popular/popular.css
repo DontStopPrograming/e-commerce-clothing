@@ -4,7 +4,23 @@
     align-items: center;
     gap: 10px;
     height: 90vh;
+
+    overflow: hidden;
 }
+
+.slide-container {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.slide {
+    flex: 0 0 100%;
+}
+
+
 
 .popular h1 {
     color: #171717;
@@ -25,9 +41,7 @@
     border-radius: 10px;
     background: #252525;
     -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+
 }
 
 .popular-item {
@@ -38,7 +52,47 @@
 
 }
 
+
 @media (max-width: 768px) {
+
+    .slide-container {
+        display: flex;
+        transition: transform 0.5s ease;
+        overflow: hidden;
+
+    }
+
+
+    p.carousel-status {
+        visibility: hidden;
+    }
+
+    /* .carousel .control-arrow {
+        margin-top: 200px;
+    } */
+
+    .control-arrow {
+        padding: 0;
+        width: 200px;
+        height: 100px;
+        background: rgb(156, 149, 248) !important;
+        z-index: -1;
+    }
+
+    /* .control-arrow.control-next::before {
+        content: 'Next';
+        color: #171717;
+        font-size: 20px;
+        z-index: 9;
+
+    }
+
+    .control-arrow.control-prev::before {
+        content: 'Prev';
+        color: #171717;
+    } */
+
+
 
     .popular-item {
         margin-top: 50px;
