@@ -1,32 +1,32 @@
 .newsletter {
-    width: 65%;
-    height: 40vh;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: auto;
-    padding: 0px 140px;
-    margin-bottom: 150px;
-    background: linear-gradient(180deg, #b5d4ff 0%, #e1ffea22 60%);
+    margin: 0;
+    padding: 100px 140px;
+
+    background: #171717;
     gap: 30px;
 }
 
 .newsletter h1 {
-    color: #454545;
     font-size: 55px;
     font-weight: 600;
 
 
     text-decoration: none;
     color: transparent;
-    background: linear-gradient(rgb(156, 149, 248), #232323);
+    background: linear-gradient(#3ec2ff, #fffdfd);
     background-clip: text;
     -webkit-background-clip: text;
 }
 
 .newletter p {
-    color: #454545;
+    background: #3ec2ff;
+    background-clip: text;
+    color: transparent;
     font-size: 20px;
 
 }
@@ -68,17 +68,16 @@
 
     .newsletter {
         width: 80%;
-        margin: auto;
+        margin: 0;
         padding: 10% 140px;
-        margin-bottom: 150px;
 
         gap: 30px;
     }
 
 
     .newsletter h1 {
-        font-size: 3rem;
-        padding: 20%;
+        font-size: 2rem;
+        padding: 0 30%;
         font-weight: 600;
         margin-left: -50%;
 
@@ -86,7 +85,7 @@
 
     .newsletter p {
         font-size: 1rem;
-        padding: 0 20px;
+        padding: 0;
         font-weight: 600;
         margin-left: -50%;
 
@@ -101,7 +100,7 @@
     }
 
     .newsletter div {
-        width: 300px;
+        width: 310px;
         height: 70px;
         margin-left: -50%;
         border-radius: 80px;
@@ -110,10 +109,10 @@
     }
 
     .newsletter div button {
-        width: 150px;
+        width: 80px;
         height: 50px;
         border-radius: 50px;
-        margin-left: -20%;
+        margin-left: -40%;
 
         font-size: 1rem;
     }

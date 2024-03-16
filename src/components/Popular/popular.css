@@ -4,6 +4,7 @@
     align-items: center;
     gap: 10px;
     height: 90vh;
+    background: #171717;
 
     overflow: hidden;
 }
@@ -30,7 +31,8 @@
 
     text-decoration: none;
     color: transparent;
-    background: linear-gradient(rgb(156, 149, 248), #232323);
+    /* background: linear-gradient(rgb(156, 149, 248), #232323); */
+    background: linear-gradient(#3ec2ff, #ffffff);
     background-clip: text;
     -webkit-background-clip: text;
 }
@@ -39,7 +41,7 @@
     width: 200px;
     height: 6px;
     border-radius: 10px;
-    background: #252525;
+    background: #00aeff;
     -webkit-border-radius: 10px;
 
 }
@@ -59,12 +61,15 @@
         display: flex;
         transition: transform 0.5s ease;
         overflow: hidden;
-
+        color: #00aeff;
     }
 
 
     p.carousel-status {
         visibility: hidden;
+        width: 0px;
+        height: 0px;
+
     }
 
     /* .carousel .control-arrow {
@@ -73,10 +78,10 @@
 
     .control-arrow {
         padding: 0;
-        width: 200px;
-        height: 100px;
         background: rgb(156, 149, 248) !important;
-        z-index: -1;
+        width: 0px;
+        height: 0px;
+        visibility: hidden;
     }
 
     /* .control-arrow.control-next::before {

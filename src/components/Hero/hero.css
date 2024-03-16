@@ -5,7 +5,7 @@
     height: 100vh;
     /*background: linear-gradient(180deg, #3affef, #08ff5271 60%);
     */
-    background: linear-gradient(180deg, #b5d4ff, #e1ffea22 60%);
+    background: #171717;
 
 
 }
@@ -34,7 +34,9 @@ h2 {
 .hero-left h3 {
     text-decoration: none;
     color: transparent;
-    background: linear-gradient(rgb(156, 149, 248), #232323);
+    /* background: linear-gradient(rgb(156, 149, 248), #232323); */
+    background: linear-gradient(#3ec2ff, #fffdfd);
+
     background-clip: text;
     -webkit-background-clip: text;
     font-size: 80px;
@@ -57,7 +59,7 @@ h2 {
 }
 
 .hero-left h2 {
-    color: #232323;
+    color: #ffffff;
     font-size: 26px;
     font-weight: 600;
 
@@ -81,15 +83,11 @@ h2 {
     margin-top: 30px;
     cursor: pointer;
 
-    background: #232323;
-    color: #ffffff;
+    background: rgba(0, 174, 255, 0.63);
     font-size: 22px;
     font-weight: 500;
+    color: #ffffff;
 
-    -webkit-border-radius: 75px;
-    -moz-border-radius: 75px;
-    -ms-border-radius: 75px;
-    -o-border-radius: 75px;
 }
 
 @media (max-width: 768px) {
@@ -97,7 +95,8 @@ h2 {
         flex-direction: column;
         text-align: center;
         height: 80vh;
-        background: #111111;
+        background: #171717;
+
     }
 
     .hero-left {
@@ -140,7 +139,7 @@ h2 {
     }
 
     .hero-right img {
-        width: 70%;
+        width: 50%;
         height: auto;
         margin-left: 50%;
         margin-top: -100%;
@@ -151,9 +150,8 @@ h2 {
     .left {
         margin: 0;
         padding: 20px;
-        background: linear-gradient(180deg, #006aff, #fbfffc 60%);
         border-radius: 20%;
-
+        background: #111111;
     }
 
     .hero-latest-btn {
