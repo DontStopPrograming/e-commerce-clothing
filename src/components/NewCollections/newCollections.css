@@ -39,4 +39,16 @@
     gap: 30px;
 }
 
-@media (max-width: 768px) {}
+
+
+@media (max-width: 768px) {
+
+    .collections {
+        display: flex;
+        grid-template-columns: none;
+        margin-top: 50px;
+        gap: 30px;
+    }
+
+
+}

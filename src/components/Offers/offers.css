@@ -56,6 +56,11 @@
     padding-top: 50px;
 }
 
+.offers-right img {
+    object-fit: cover;
+}
+
+
 @media (max-width: 768px) {
 
     .offers {
@@ -87,6 +92,11 @@
 
     .offers-left p {
         font-size: 1rem;
+
+    }
+
+    .offers-right img {
+        width: 200px;
 
     }
 

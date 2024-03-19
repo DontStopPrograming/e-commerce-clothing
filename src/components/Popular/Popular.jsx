@@ -41,7 +41,7 @@ export const Popular = () => {
 
                 {window.innerWidth <= 768 ? (
                     <div className='slide-container'>
-                        <Carousel showArrows={true} showThumbs={false}>
+                        <Carousel autoPlay={true} showArrows={true} showThumbs={false} infiniteLoop={true}>
                             {data_product.map((item, i) => (
 
                                 <Item key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price} />
