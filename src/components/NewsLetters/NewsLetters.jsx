@@ -10,8 +10,8 @@ export const NewsLetters = () => {
                 <input type="email" placeholder='Your Email Id' />
                 <button> Suscribe </button>
             </div>
-
         </div>
+
 
 
     )

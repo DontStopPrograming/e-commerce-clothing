@@ -107,23 +107,28 @@
         border-radius: 5px;
         object-fit: cover;
 
-        width: 25px;
-        height: 25px;
+        width: 30px;
+        height: 30px;
     }
 
     .nav-menu li {
-        font-size: 0.80rem;
+        font-size: 1rem;
         margin-left: 20px;
     }
 
 
     .nav-login-cart {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .nav-logo {
         gap: 0px;
-        padding: 1rem;
+        padding: 0;
+    }
+
+    .nav-logo p {
+        font-size: 1.2rem;
+
     }
 
     .nav-login-cart img {
@@ -138,10 +143,6 @@
         margin-left: 0;
     }
 
-    .nav-logo p {
-        font-size: 14px;
-
-    }
 
     .nav-cart-count {
         margin-bottom: -20px;
