@@ -47,19 +47,21 @@
 @media (max-width: 768px) {
 
     .item {
-        width: 40%;
+        width: 100%;
         text-align: center;
-        margin-left: 30%;
+
 
     }
 
     .item p {
-        margin: 20px;
-        width: 80%;
+
+        width: 50%;
         font-size: 14px;
         text-align: center;
         display: inline-block;
     }
+
+
 
     .item img {
         width: 300px;
