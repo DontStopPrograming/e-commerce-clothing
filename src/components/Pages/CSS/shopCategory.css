@@ -56,3 +56,15 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+@media (max-width: 768px) {
+    .shopCategory-products {
+        margin: 20px 170px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+
+    }
+
+
+}

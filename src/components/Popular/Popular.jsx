@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
+
 import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
+
 
 import './popular.css'
 import { Item } from '../Item/Item'
@@ -8,6 +10,8 @@ import data_product from '../assets/data'
 
 export const Popular = () => {
     const [stateWidth, setStateWidth] = useState(window.innerWidth)
+    // const carouselContext = useContext(CarouselContext);
+
 
     useEffect(() => {
         const handleResize = () => {
@@ -70,3 +74,4 @@ export const Popular = () => {
 
     )
 }
+
