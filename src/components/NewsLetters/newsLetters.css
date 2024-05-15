@@ -64,9 +64,9 @@
 @media (max-width: 768px) {
 
     .newsletter {
-
+        width: 100%;
         margin: 0;
-        padding: auto;
+        padding: 0;
         gap: 30px;
     }
 
@@ -94,7 +94,6 @@
         width: auto;
 
         background: none;
-
         font-size: 1.2rem;
     }
 
@@ -103,7 +102,6 @@
         height: 70px;
 
         border-radius: 80px;
-
         font-size: 1rem;
     }
 
@@ -112,10 +110,11 @@
         height: 50px;
         border-radius: 50px;
         margin-left: -40%;
-
         font-size: 12px;
     }
 
-
+    .suscribe-button {
+        margin-bottom: 20px;
+    }
 
 }
