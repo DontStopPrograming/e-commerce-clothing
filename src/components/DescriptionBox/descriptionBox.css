@@ -31,3 +31,32 @@
     padding: 48px;
     padding-bottom: 70px;
 }
+
+@media (max-width: 768px) {
+
+    .descriptionBox {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .descriptionBox-nav-box {
+        margin-left: 20px;
+        width: 50px;
+        height: 0;
+
+    }
+
+    .descriptionBox-description {
+        gap: 5px;
+        border: 1px solid #D0D0D0;
+        padding: 10px;
+        padding-bottom: 0;
+
+
+    }
+
+    .descriptionBox-description p {
+        font-size: 15px;
+    }
+}
