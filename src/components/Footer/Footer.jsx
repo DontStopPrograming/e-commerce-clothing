@@ -21,16 +21,20 @@ export const Footer = () => {
             </ul>
 
             <div className='footer-social-icon'>
-                <div className='footer-icons-container'>
-                    <img src={instagram_icon} alt="" />
+                <div className='footer-icons'>
+                    <div className='footer-icons-inst'>
+                        <img src={instagram_icon} alt="" />
+                    </div>
+
+                    <div className='footer-icons-what'>
+                        <img src={whatsapp_icon} alt="" />
+                    </div>
                 </div>
 
-                <div className='footer-icons-container'>
-                    <img src={whatsapp_icon} alt="" />
-                </div>
+
 
                 <div className='footer-copyright'>
-                    <p> Copyright {new Date().getFullYear()} - All Rigth Reserved</p>
+                    <p> Copyright {new Date().getFullYear()} - All Right Reserved</p>
                 </div>
 
             </div>
