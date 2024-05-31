@@ -56,17 +56,18 @@
     .item-prices {
         display: flex;
         gap: 20px;
-        margin-left: 40%;
+        margin-left: 48%;
         margin-bottom: 30px;
 
     }
 
     .item p {
-
-        width: 70%;
+        width: 150px;
         font-size: 14px;
         text-align: center;
         display: inline-block;
+
+
     }
 
 

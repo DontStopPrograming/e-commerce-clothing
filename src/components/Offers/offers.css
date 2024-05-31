@@ -65,20 +65,9 @@
 
     .offers {
 
-        padding: 0 50px;
+        padding: 20px 50px;
         margin: 0;
     }
-
-    /* .offers-right {
-        flex: none;
-        display: none;
-        align-items: none;
-        justify-content: none;
-        padding-top: none;
-        width: 0;
-        height: 0;
-        visibility: hidden;
-    } */
 
     .offers-left button {
         margin-left: 20px;
