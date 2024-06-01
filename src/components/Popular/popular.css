@@ -83,19 +83,6 @@
         visibility: hidden;
     }
 
-    /* .control-arrow.control-next::before {
-        content: 'Next';
-        color: #171717;
-        font-size: 20px;
-        z-index: 9;
-
-    }
-
-    .control-arrow.control-prev::before {
-        content: 'Prev';
-        color: #171717;
-    } */
-
 
 
     .popular-item {
@@ -108,15 +95,6 @@
 
     }
 
-    .popular-item img {}
 
-
-    .popular {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-
-    }
 
 }

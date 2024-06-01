@@ -64,10 +64,10 @@
     }
 
     .item p {
-        width: 70%;
+        width: 80%;
         font-size: 1rem;
         text-align: center;
-        margin-left: 20%;
+        text-indent: 20%;
 
 
     }
@@ -75,8 +75,8 @@
 
 
     .item img {
-        width: 180px;
-        height: 180px !important;
+        width: auto;
+        height: 170px !important;
         display: block;
         object-fit: contain;
 
