@@ -7,7 +7,7 @@ export const NewsLetters = () => {
             <p> Suscribe to our newletters and stay update </p>
 
             <div className='suscribe-button'>
-                <input type="email" placeholder='Your Email Id' />
+                <input type="email" placeholder='Your Email' />
                 <button> Suscribe </button>
             </div>
         </div>

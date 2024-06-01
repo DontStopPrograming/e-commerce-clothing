@@ -90,15 +90,15 @@
     }
 
 
-    .newsletter input {
+    /* .newsletter input {
         width: auto;
 
         background: none;
         font-size: 1.2rem;
-    }
+    } */
 
     .newsletter div {
-        width: 250px;
+        width: 50%;
         height: 50px;
 
         border-radius: 80px;
@@ -106,15 +106,18 @@
     }
 
     .newsletter div button {
-        width: 90px;
+        width: 80px;
         height: 50px;
-        border-radius: 20px;
-        margin-left: 10px;
+        border-radius: 50px;
+        margin-left: 0px;
         font-size: 12px;
     }
 
     .suscribe-button {
         margin-bottom: 20px;
+
     }
+
+
 
 }
