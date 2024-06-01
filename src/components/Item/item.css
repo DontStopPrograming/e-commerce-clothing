@@ -64,10 +64,10 @@
     }
 
     .item p {
-        width: 150px;
-        font-size: 14px;
+        width: 70%;
+        font-size: 1rem;
         text-align: center;
-        display: inline-block;
+        margin-left: 20%;
 
 
     }
