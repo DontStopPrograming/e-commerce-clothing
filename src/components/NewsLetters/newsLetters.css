@@ -119,9 +119,9 @@
     }
 
     .suscribe-button input[type="email"] {
-        width: 150px;
+        width: 100px;
         padding: 10px;
-
+        background: #ffffff;
     }
 
 
