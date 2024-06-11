@@ -118,6 +118,12 @@
 
     }
 
+    .suscribe-button input[type="email"] {
+        width: 150px;
+        padding: 10px;
+
+    }
+
 
 
 }
