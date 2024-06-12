@@ -109,7 +109,8 @@
     .productDisplay {
         display: flex;
         flex-direction: column;
-
+        margin: 0px;
+        padding: 0 50px;
     }
 
     .productDisplay-left {
@@ -120,7 +121,7 @@
     .productDisplay-img-list {
         display: flex;
         flex-direction: column;
-        gap: 16px;
+        gap: 20px;
     }
 
     .productDisplay-img-list img {
@@ -178,6 +179,17 @@
 
     .productDisplay-right-description {
         text-align: left;
-        width: 150%;
+        width: 90%;
+    }
+
+    .productDisplay-right-stars {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .productDisplay-right-prices {
+        margin: 0px;
+        margin-bottom: 20px;
+
     }
 }
