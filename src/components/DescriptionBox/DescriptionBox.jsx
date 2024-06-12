@@ -4,9 +4,9 @@ export const DescriptionBox = () => {
     return (
         <div className='descriptionBox'>
             <div className='descriptionBox-navigator'>
-                <div className='descriptionBox-nav-box'>
+                {/* <div className='descriptionBox-nav-box'>
                     <div className='descriptionBox-nav-box fade'> Service </div>
-                </div>
+                </div> */}
 
                 <div className='descriptionBox-description'>
                     <p> An E-commerce website is an online platform that facilitate buying

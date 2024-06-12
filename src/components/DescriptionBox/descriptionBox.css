@@ -3,11 +3,9 @@
 
 }
 
-.descriptionBox-navigator {
-    display: flex;
-}
+.descriptionBox-navigator {}
 
-.descriptionBox-nav-box {
+/* .descriptionBox-nav-box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +19,7 @@
 .descriptionBox-nav-box.fade {
     background: #FBFBFB;
     color: #555;
-}
+} */
 
 .descriptionBox-description {
     display: flex;
@@ -40,17 +38,11 @@
         flex-direction: column;
     }
 
-    .descriptionBox-nav-box {
-        margin-left: 20px;
-        width: 50px;
-        height: 0;
-
-    }
 
     .descriptionBox-description {
-        gap: 5px;
+        gap: 0px;
         border: 1px solid #D0D0D0;
-        padding: 10px;
+        padding: 0 20px;
         padding-bottom: 0;
 
 
