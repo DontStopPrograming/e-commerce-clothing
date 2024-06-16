@@ -86,16 +86,7 @@
         margin: 0;
         font-weight: 600;
 
-
     }
-
-
-    /* .newsletter input {
-        width: auto;
-
-        background: none;
-        font-size: 1.2rem;
-    } */
 
     .newsletter div {
         width: 50%;
@@ -114,7 +105,7 @@
     }
 
     .suscribe-button {
-        margin-bottom: 20px;
+        margin-bottom: 70px;
 
     }
 
