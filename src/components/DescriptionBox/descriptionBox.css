@@ -42,12 +42,14 @@
 
     .descriptionBox-description {
         display: flex;
-        flex-direction: column;
-        gap: 10px;
+        gap: 0px;
         border: 1px solid #D0D0D0;
         padding: 0 20px;
         padding-bottom: 0;
         margin: 0;
+        margin-top: -100px;
+        border: 0;
+        font-weight: 500;
     }
 
     .descriptionBox-description p {

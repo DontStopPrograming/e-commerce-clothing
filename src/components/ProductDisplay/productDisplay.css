@@ -108,13 +108,14 @@
 
     .productDisplay {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         margin: 0px;
         padding: 0 50px;
     }
 
     .productDisplay-left {
         display: flex;
+        margin-top: 125%;
         gap: 17px;
     }
 
@@ -141,6 +142,7 @@
     .productDisplay-right {
         margin: 0;
         padding: 0;
+        margin-left: -70%;
 
     }
 
@@ -158,7 +160,7 @@
     }
 
     .productDisplay-right-sizes div {
-        padding: 5px;
+        padding: 10px;
         background: #fbfbfb;
         border: 1px solid #ebebeb;
         border-radius: 3px;
@@ -168,7 +170,7 @@
     .productDisplay-right button {
         padding: 10px;
         width: 120px;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 600;
         color: white;
         background: #FF4141;
