@@ -99,11 +99,11 @@
     }
 
     .nav-menu-responsive {
-        background: rgba(119, 223, 255, 0.664);
+        background: #111111;
         position: absolute;
-        width: 80%;
+        width: 85%;
         height: auto;
-        top: 7%;
+        top: 10%;
         padding: 20px;
         border-radius: 20px;
         display: flex;
@@ -116,7 +116,7 @@
         padding: 0 25px;
         border-left: 3px solid rgb(119, 223, 255);
         transform: skewX(-30deg);
-        font-size: 1rem;
+        font-size: 13px;
 
     }
 
