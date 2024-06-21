@@ -117,7 +117,8 @@
 @media (max-width: 768px) {
 
     .cartItems-format p {
-        font-size: 12px;
+        font-size: 8px;
+        font-weight: 900;
     }
 
     .cartItems-total h1 {
