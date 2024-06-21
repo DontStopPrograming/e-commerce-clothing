@@ -115,7 +115,7 @@
 
     .productDisplay-left {
         display: flex;
-        margin-top: 125%;
+        margin-top: 150%;
         gap: 17px;
     }
 
@@ -142,7 +142,7 @@
     .productDisplay-right {
         margin: 0;
         padding: 0;
-        margin-left: -70%;
+        margin-left: -80%;
 
     }
 
@@ -155,12 +155,14 @@
 
     .productDisplay-right-sizes {
         display: flex;
-        margin: 5px;
+        margin: 0;
+        padding: 20px;
         gap: 10px;
+        font-size: 1rem;
     }
 
     .productDisplay-right-sizes div {
-        padding: 10px;
+        padding: 5px;
         background: #fbfbfb;
         border: 1px solid #ebebeb;
         border-radius: 3px;
