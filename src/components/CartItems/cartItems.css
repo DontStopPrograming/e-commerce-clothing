@@ -40,7 +40,7 @@
     width: 64px;
     height: 50px;
     border: 2px solid #ebebeb;
-    background: #fff;
+    background: linear-gradient(180deg, rgba(0, 174, 255, 0.63), #ffffff);
 }
 
 .cartItems-down {
@@ -117,7 +117,7 @@
 @media (max-width: 768px) {
 
     .cartItems-format p {
-        font-size: 8px;
+        font-size: 10px;
         font-weight: 900;
     }
 
@@ -128,6 +128,16 @@
         margin-bottom: -30%;
     }
 
+    .cartItems-total button {
+        width: auto;
+        height: 30px;
+        outline: none;
+        border: none;
+        background: #ff5a5a;
+        color: #fff;
+        font-size: 10px;
+    }
+
     .cartItems-total-item {
         padding: 0px;
     }
@@ -136,30 +146,40 @@
         display: grid;
         grid-template-columns: 10px 10px 10px 10px 10px 10px;
         align-items: center;
-        gap: 70px;
+        gap: 50px;
         padding: 20px;
         color: #454545;
 
     }
 
     .cartItems-down {
+        position: relative;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-left: 100px;
+        padding: 2rem;
 
     }
 
     .cartItems-promocode {
+        position: absolute;
+        margin-left: 70%;
+        margin-bottom: 50px;
+        width: 100px;
+        height: 200px;
+    }
+
+    .cartItems-promocode p {
         margin-left: -100%;
+        color: #555;
     }
 
     .cartItems-promobox {
         display: flex;
         flex-direction: column;
-        width: 100px;
+        width: auto;
         height: 20px;
         padding: 10px;
         background: #eaeaea;
@@ -168,16 +188,20 @@
 
     .cartItems-promobox input {
         width: 150px;
-        height: 20px;
-        margin-bottom: 20px;
-        margin-left: -10px;
+        height: 10px;
+        padding: 20px 0;
     }
 
     .cartItems-promobox button {
-        width: 150px;
+        width: auto;
         margin-left: -10px;
     }
 
+    .cartItems-quantity {
+        width: 40px;
+        height: 40px;
 
+
+    }
 
 }
