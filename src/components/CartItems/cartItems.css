@@ -165,10 +165,10 @@
 
     .cartItems-promocode {
         position: absolute;
-        margin-left: 70%;
-        margin-bottom: 50px;
+        top: 20px;
+        margin-left: 270px;
         width: 100px;
-        height: 200px;
+
     }
 
     .cartItems-promocode p {
